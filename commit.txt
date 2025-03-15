@@ -1,0 +1,5 @@
+2025-03-16
+1. First commit cleanup
+2. Added assets
+3. Splash screen
+4. Onboarding screen with Swiper(with installation)

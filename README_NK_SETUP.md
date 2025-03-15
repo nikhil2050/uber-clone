@@ -2,6 +2,7 @@
 
 #### Reference:
 Javascript Mastery - https://www.youtube.com/watch?v=kmy_YNhl0mw&list=PL6QREj8te1P54rZQx5AWWtFyf1hlznFjL
+GitHub: https://github.com/adrianhajdin/uber/blob/main/README.md#snippets
 
 ## React Native
 Learn once, Write anywhere. \
@@ -64,8 +65,17 @@ For SDK 50+ :
 > 8. Actions on Save
 > 9. Verify "Run eslint --fix" is selected
 
+### 6. Install Swiper:
+> npm install react-native-swiper
 
+### 7. Type declarations
+If you add this line in constants/index.ts, it will throw an error:
+> import onboarding1 from "@/assets/images/onboarding1.png";
 
+> ERROR:\
+> TS2307: Cannot find module @/assets/images/onboarding1.png or its corresponding type declarations.
+
+To fix this, create types/type.d.ts and types/image.d.ts file
 
 
 
